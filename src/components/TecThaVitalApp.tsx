@@ -274,6 +274,51 @@ const D: Record<string, string[]> = {
   collapse: ["Collapse menu", "मेनू छोटा करें", "பட்டியலைச் சுருக்கு", "మెనూ కుదించు", "മെനു ചുരുക്കുക", "ಮೆನು ಕುಗ್ಗಿಸಿ", "मेनू लहान करा", "طيّ القائمة", "مینو سمیٹیں"],
   expand: ["Expand menu", "मेनू बड़ा करें", "பட்டியலை விரி", "మెనూ విస్తరించు", "മെനു വികസിപ്പിക്കുക", "ಮೆನು ವಿಸ್ತರಿಸಿ", "मेनू मोठा करा", "توسيع القائمة", "مینو پھیلائیں"],
   skip: ["Skip to content", "सामग्री पर जाएँ", "உள்ளடக்கத்துக்குச் செல்", "కంటెంట్‌కు వెళ్ళండి", "ഉള്ളടക്കത്തിലേക്ക് പോകുക", "ವಿಷಯಕ್ಕೆ ಹೋಗಿ", "मजकुराकडे जा", "انتقل إلى المحتوى", "مواد پر جائیں"],
+  // ---- Premium landing (order: en, hi, ta, te, ml, kn, mr, ar, ur). Review by native speakers before production.
+  heroEm: ["One connected system", "एक जुड़ी हुई प्रणाली", "ஒரே இணைந்த அமைப்பு", "ఒకే అనుసంధాన వ్యవస్థ", "ഒരൊറ്റ ബന്ധിത സംവിധാനം", "ಒಂದೇ ಸಂಯೋಜಿತ ವ್ಯವಸ್ಥೆ", "एकच जोडलेली प्रणाली", "نظام متكامل واحد", "ایک مربوط نظام"],
+  heroRest: ["for every patient, ward and branch.", "हर रोगी, वार्ड और शाखा के लिए।", "ஒவ்வொரு நோயாளர், வார்டு, கிளைக்கும்.", "ప్రతి రోగి, వార్డు, శాఖ కోసం.", "ഓരോ രോഗിക്കും വാർഡിനും ശാഖയ്ക്കും.", "ಪ್ರತಿ ರೋಗಿ, ವಾರ್ಡ್ ಮತ್ತು ಶಾಖೆಗಾಗಿ.", "प्रत्येक रुग्ण, वॉर्ड आणि शाखेसाठी.", "لكل مريض وجناح وفرع.", "ہر مریض، وارڈ اور برانچ کے لیے۔"],
+  ctaLive: ["Try the live demo", "लाइव डेमो आज़माएँ", "நேரடி டெமோவை முயற்சிக்கவும்", "లైవ్ డెమో ప్రయత్నించండి", "ലൈവ് ഡെമോ പരീക്ഷിക്കുക", "ಲೈವ್ ಡೆಮೋ ಪ್ರಯತ್ನಿಸಿ", "लाइव्ह डेमो वापरून पहा", "جرّب العرض الحي", "لائیو ڈیمو آزمائیں"],
+  ctaTalk: ["Talk to us", "हमसे बात करें", "எங்களுடன் பேசுங்கள்", "మాతో మాట్లాడండి", "ഞങ്ങളോട് സംസാരിക്കുക", "ನಮ್ಮೊಂದಿಗೆ ಮಾತನಾಡಿ", "आमच्याशी बोला", "تحدّث إلينا", "ہم سے بات کریں"],
+  trustLine: ["Built for Indian hospitals", "भारतीय अस्पतालों के लिए बना", "இந்திய மருத்துவமனைகளுக்காக உருவாக்கப்பட்டது", "భారత ఆసుపత్రుల కోసం రూపొందించబడింది", "ഇന്ത്യൻ ആശുപത്രികൾക്കായി നിർമ്മിച്ചത്", "ಭಾರತೀಯ ಆಸ್ಪತ್ರೆಗಳಿಗಾಗಿ ನಿರ್ಮಿಸಲಾಗಿದೆ", "भारतीय रुग्णालयांसाठी बनवलेले", "مصمَّم للمستشفيات الهندية", "بھارتی ہسپتالوں کے لیے بنایا گیا"],
+  previewLabel: ["Live product · sample data", "लाइव उत्पाद · नमूना डेटा", "நேரடி தயாரிப்பு · மாதிரி தரவு", "లైవ్ ఉత్పత్తి · నమూనా డేటా", "ലൈവ് ഉൽപ്പന്നം · സാമ്പിൾ ഡാറ്റ", "ಲೈವ್ ಉತ್ಪನ್ನ · ಮಾದರಿ ಡೇಟಾ", "लाइव्ह उत्पादन · नमुना डेटा", "المنتج الحي · بيانات تجريبية", "لائیو پروڈکٹ · نمونہ ڈیٹا"],
+  stModules: ["modules", "मॉड्यूल", "தொகுதிகள்", "మాడ్యూళ్లు", "മൊഡ്യൂളുകൾ", "ಘಟಕಗಳು", "मॉड्यूल", "وحدات", "ماڈیولز"],
+  stLanguages: ["languages", "भाषाएँ", "மொழிகள்", "భాషలు", "ഭാഷകൾ", "ಭಾಷೆಗಳು", "भाषा", "لغات", "زبانیں"],
+  stCurrencies: ["currencies", "मुद्राएँ", "நாணயங்கள்", "కరెన్సీలు", "കറൻസികൾ", "ಕರೆನ್ಸಿಗಳು", "चलने", "عملات", "کرنسیاں"],
+  stRoles: ["roles", "भूमिकाएँ", "பணிகள்", "పాత్రలు", "റോളുകൾ", "ಪಾತ್ರಗಳು", "भूमिका", "أدوار", "کردار"],
+  modulesSub: ["Every department works on the same record, so nothing is typed twice and nothing falls through the gaps.", "हर विभाग एक ही रिकॉर्ड पर काम करता है, इसलिए कुछ भी दो बार नहीं लिखा जाता और कुछ नहीं छूटता।", "ஒவ்வொரு துறையும் ஒரே பதிவில் வேலை செய்கிறது; எதுவும் இருமுறை எழுதப்படாது, எதுவும் தவறாது.", "ప్రతి విభాగం ఒకే రికార్డుపై పనిచేస్తుంది, కాబట్టి ఏదీ రెండుసార్లు రాయరు, ఏదీ తప్పిపోదు.", "എല്ലാ വിഭാഗവും ഒരേ രേഖയിൽ പ്രവർത്തിക്കുന്നു; ഒന്നും രണ്ടുതവണ എഴുതേണ്ടതില്ല, ഒന്നും വിട്ടുപോകില്ല.", "ಪ್ರತಿ ವಿಭಾಗವೂ ಒಂದೇ ದಾಖಲೆಯಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ; ಯಾವುದನ್ನೂ ಎರಡು ಬಾರಿ ಬರೆಯಬೇಕಿಲ್ಲ, ಯಾವುದೂ ತಪ್ಪುವುದಿಲ್ಲ.", "प्रत्येक विभाग एकाच नोंदीवर काम करतो, त्यामुळे काहीही दोनदा लिहावे लागत नाही आणि काही सुटत नाही.", "تعمل كل الأقسام على السجل نفسه، فلا يُكتب شيء مرتين ولا يضيع شيء.", "ہر شعبہ ایک ہی ریکارڈ پر کام کرتا ہے، اس لیے کچھ دو بار نہیں لکھا جاتا اور کچھ نہیں چھوٹتا۔"],
+  seeIt: ["See it", "देखें", "பார்க்க", "చూడండి", "കാണുക", "ನೋಡಿ", "पहा", "شاهد", "دیکھیں"],
+  howTitle: ["Live in three steps", "तीन चरणों में शुरू", "மூன்று படிகளில் தொடக்கம்", "మూడు దశల్లో ప్రారంభం", "മൂന്ന് ഘട്ടങ്ങളിൽ തുടക്കം", "ಮೂರು ಹಂತಗಳಲ್ಲಿ ಆರಂಭ", "तीन टप्प्यांत सुरू", "ابدأ في ثلاث خطوات", "تین مراحل میں آغاز"],
+  how1t: ["Connect", "जोड़ें", "இணைக்கவும்", "కలపండి", "ബന്ധിപ്പിക്കുക", "ಜೋಡಿಸಿ", "जोडा", "اربط", "جوڑیں"],
+  how1b: ["Link the CRM and billing software you already use. Nothing is replaced.", "जो CRM और बिलिंग सॉफ़्टवेयर आप पहले से उपयोग करते हैं, उसे जोड़ें। कुछ भी बदला नहीं जाता।", "நீங்கள் ஏற்கனவே பயன்படுத்தும் CRM, பில்லிங் மென்பொருளை இணைக்கவும். எதுவும் மாற்றப்படாது.", "మీరు ఇప్పటికే వాడుతున్న CRM, బిల్లింగ్ సాఫ్ట్‌వేర్‌ను కలపండి. ఏదీ మార్చరు.", "നിങ്ങൾ ഇപ്പോൾ ഉപയോഗിക്കുന്ന CRM-ഉം ബില്ലിംഗ് സോഫ്റ്റ്‌വെയറും ബന്ധിപ്പിക്കുക. ഒന്നും മാറ്റുന്നില്ല.", "ನೀವು ಈಗಾಗಲೇ ಬಳಸುವ CRM ಮತ್ತು ಬಿಲ್ಲಿಂಗ್ ಸಾಫ್ಟ್‌ವೇರ್ ಜೋಡಿಸಿ. ಯಾವುದನ್ನೂ ಬದಲಾಯಿಸುವುದಿಲ್ಲ.", "तुम्ही आधीपासून वापरत असलेले CRM व बिलिंग सॉफ्टवेअर जोडा. काहीही बदलले जात नाही.", "اربط نظام CRM وبرنامج الفوترة اللذين تستخدمهما. لا يُستبدل شيء.", "جو CRM اور بلنگ سافٹ ویئر آپ پہلے سے استعمال کرتے ہیں، انہیں جوڑیں۔ کچھ تبدیل نہیں ہوتا۔"],
+  how2t: ["Automate", "स्वचालित करें", "தானியக்கவும்", "ఆటోమేట్ చేయండి", "ഓട്ടോമേറ്റ് ചെയ്യുക", "ಸ್ವಯಂಚಾಲಿತಗೊಳಿಸಿ", "स्वयंचलित करा", "أتمِت", "خودکار بنائیں"],
+  how2b: ["Reminders, dues, follow-ups and claim alerts run on their own, with consent.", "रिमाइंडर, बकाया, फ़ॉलो-अप और दावा अलर्ट सहमति के साथ अपने आप चलते हैं।", "நினைவூட்டல், நிலுவை, பின்தொடர்தல், கோரிக்கை எச்சரிக்கைகள் ஒப்புதலுடன் தானாக இயங்கும்.", "రిమైండర్లు, బకాయిలు, ఫాలో-అప్‌లు, క్లెయిమ్ అలర్ట్‌లు సమ్మతితో వాటంతటవే నడుస్తాయి.", "ഓർമ്മപ്പെടുത്തലുകൾ, കുടിശ്ശിക, ഫോളോ-അപ്പ്, ക്ലെയിം അലേർട്ടുകൾ സമ്മതത്തോടെ സ്വയം പ്രവർത്തിക്കുന്നു.", "ಜ್ಞಾಪನೆಗಳು, ಬಾಕಿ, ಫಾಲೋ-ಅಪ್ ಮತ್ತು ಕ್ಲೇಮ್ ಎಚ್ಚರಿಕೆಗಳು ಸಮ್ಮತಿಯೊಂದಿಗೆ ತಾವಾಗಿಯೇ ನಡೆಯುತ್ತವೆ.", "रिमाइंडर, थकबाकी, फॉलो-अप व दावा सूचना संमतीसह आपोआप चालतात.", "التذكيرات والمستحقات والمتابعات وتنبيهات المطالبات تعمل تلقائيًا وبالموافقة.", "یاد دہانیاں، بقایا جات، فالو اپ اور دعوے کے الرٹ رضامندی کے ساتھ خود چلتے ہیں۔"],
+  how3t: ["See everything", "सब कुछ देखें", "அனைத்தையும் பாருங்கள்", "అన్నీ చూడండి", "എല്ലാം കാണുക", "ಎಲ್ಲವನ್ನೂ ನೋಡಿ", "सर्व काही पहा", "شاهد كل شيء", "سب کچھ دیکھیں"],
+  how3b: ["Every branch on one screen, and a report on WhatsApp each morning.", "हर शाखा एक स्क्रीन पर, और हर सुबह व्हाट्सऐप पर रिपोर्ट।", "ஒவ்வொரு கிளையும் ஒரே திரையில், ஒவ்வொரு காலையும் WhatsApp-இல் அறிக்கை.", "ప్రతి శాఖ ఒకే స్క్రీన్‌పై, ప్రతి ఉదయం WhatsApp‌లో రిపోర్ట్.", "എല്ലാ ശാഖകളും ഒരു സ്ക്രീനിൽ, ഓരോ രാവിലെയും WhatsApp-ൽ റിപ്പോർട്ട്.", "ಪ್ರತಿ ಶಾಖೆ ಒಂದೇ ಪರದೆಯಲ್ಲಿ, ಪ್ರತಿದಿನ ಬೆಳಿಗ್ಗೆ WhatsApp ನಲ್ಲಿ ವರದಿ.", "प्रत्येक शाखा एका स्क्रीनवर, आणि दररोज सकाळी व्हॉट्सॲपवर अहवाल.", "كل الفروع على شاشة واحدة، وتقرير على واتساب كل صباح.", "ہر برانچ ایک اسکرین پر، اور ہر صبح واٹس ایپ پر رپورٹ۔"],
+  aiTitle: ["AI agents that work beside your team", "आपकी टीम के साथ काम करने वाले एआई एजेंट", "உங்கள் குழுவுடன் இணைந்து செயல்படும் AI முகவர்கள்", "మీ బృందంతో కలిసి పనిచేసే AI ఏజెంట్లు", "നിങ്ങളുടെ ടീമിനൊപ്പം പ്രവർത്തിക്കുന്ന AI ഏജന്റുകൾ", "ನಿಮ್ಮ ತಂಡದ ಜೊತೆ ಕೆಲಸ ಮಾಡುವ AI ಏಜೆಂಟ್‌ಗಳು", "तुमच्या टीमसोबत काम करणारे एआय एजंट", "وكلاء ذكاء اصطناعي يعملون إلى جانب فريقك", "آپ کی ٹیم کے ساتھ کام کرنے والے اے آئی ایجنٹس"],
+  aiNote: ["Decision support only. A person approves every action; the doctor decides.", "केवल निर्णय सहायता। हर कार्रवाई को एक व्यक्ति मंज़ूर करता है; निर्णय डॉक्टर का।", "முடிவு ஆதரவு மட்டுமே. ஒவ்வொரு செயலையும் ஒருவர் அங்கீகரிக்கிறார்; முடிவு மருத்துவருடையது.", "నిర్ణయ సహాయం మాత్రమే. ప్రతి చర్యను ఒక వ్యక్తి ఆమోదిస్తారు; నిర్ణయం డాక్టర్‌దే.", "തീരുമാന പിന്തുണ മാത്രം. ഓരോ നടപടിയും ഒരാൾ അംഗീകരിക്കുന്നു; തീരുമാനം ഡോക്ടറുടേത്.", "ನಿರ್ಧಾರ ಬೆಂಬಲ ಮಾತ್ರ. ಪ್ರತಿ ಕ್ರಿಯೆಯನ್ನು ಒಬ್ಬರು ಅನುಮೋದಿಸುತ್ತಾರೆ; ನಿರ್ಧಾರ ವೈದ್ಯರದು.", "केवळ निर्णय सहाय्य. प्रत्येक कृती एक व्यक्ती मंजूर करते; निर्णय डॉक्टरांचा.", "دعم للقرار فقط. يوافق شخص على كل إجراء؛ والطبيب هو من يقرر.", "صرف فیصلے میں مدد۔ ہر کارروائی ایک شخص منظور کرتا ہے؛ فیصلہ ڈاکٹر کا ہے۔"],
+  ai1t: ["Revenue-loss agent", "राजस्व-हानि एजेंट", "வருவாய் இழப்பு முகவர்", "ఆదాయ నష్ట ఏజెంట్", "വരുമാന നഷ്ട ഏജന്റ്", "ಆದಾಯ ನಷ್ಟ ಏಜೆಂಟ್", "महसूल-तोटा एजंट", "وكيل منع خسارة الإيرادات", "آمدنی نقصان ایجنٹ"],
+  ai1b: ["Finds services that were given but never billed, before discharge.", "डिस्चार्ज से पहले वे सेवाएँ ढूँढता है जो दी गईं पर बिल नहीं हुईं।", "வெளியேற்றத்துக்கு முன், வழங்கப்பட்டும் பில் செய்யப்படாத சேவைகளைக் கண்டறியும்.", "డిశ్చార్జ్‌కు ముందు, ఇచ్చి బిల్లు చేయని సేవలను కనుగొంటుంది.", "ഡിസ്ചാർജിന് മുമ്പ്, നൽകിയിട്ടും ബിൽ ചെയ്യാത്ത സേവനങ്ങൾ കണ്ടെത്തുന്നു.", "ಡಿಸ್ಚಾರ್ಜ್‌ಗೆ ಮೊದಲು, ನೀಡಿದರೂ ಬಿಲ್ ಆಗದ ಸೇವೆಗಳನ್ನು ಪತ್ತೆಹಚ್ಚುತ್ತದೆ.", "डिस्चार्जपूर्वी, दिलेल्या पण बिल न झालेल्या सेवा शोधतो.", "يكتشف الخدمات المقدَّمة غير المفوترة قبل الخروج.", "ڈسچارج سے پہلے وہ خدمات ڈھونڈتا ہے جو دی گئیں مگر بل نہیں ہوئیں۔"],
+  ai2t: ["Smart OPD queue", "स्मार्ट ओपीडी कतार", "ஸ்மார்ட் OPD வரிசை", "స్మార్ట్ OPD క్యూ", "സ്മാർട്ട് OPD ക്യൂ", "ಸ್ಮಾರ್ಟ್ OPD ಸರತಿ", "स्मार्ट ओपीडी रांग", "طابور العيادات الذكي", "اسمارٹ او پی ڈی قطار"],
+  ai2b: ["Live tokens and wait times, with priority for the elderly and emergencies.", "लाइव टोकन और प्रतीक्षा समय, बुज़ुर्गों और आपात स्थिति को प्राथमिकता।", "நேரடி டோக்கன், காத்திருப்பு நேரம்; முதியோர், அவசரத்துக்கு முன்னுரிமை.", "లైవ్ టోకెన్లు, వేచి ఉండే సమయం; వృద్ధులు, అత్యవసరాలకు ప్రాధాన్యం.", "ലൈവ് ടോക്കണുകളും കാത്തിരിപ്പ് സമയവും; പ്രായമായവർക്കും അടിയന്തരത്തിനും മുൻഗണന.", "ಲೈವ್ ಟೋಕನ್ ಮತ್ತು ಕಾಯುವ ಸಮಯ; ಹಿರಿಯರು ಮತ್ತು ತುರ್ತಿಗೆ ಆದ್ಯತೆ.", "लाइव्ह टोकन व प्रतीक्षा वेळ; ज्येष्ठ व आपत्कालीन रुग्णांना प्राधान्य.", "أرقام وأوقات انتظار مباشرة، مع أولوية لكبار السن والطوارئ.", "لائیو ٹوکن اور انتظار کا وقت، بزرگوں اور ایمرجنسی کو ترجیح۔"],
+  ai3t: ["Churn & adherence", "छोड़ने का जोखिम और पालन", "விலகல் & பின்பற்றல்", "చర్న్ & అనుసరణ", "വിട്ടുപോകലും പാലനവും", "ಬಿಡುವಿಕೆ ಮತ್ತು ಪಾಲನೆ", "सोडण्याचा धोका व पालन", "التسرّب والالتزام", "چھوڑنے کا خطرہ اور پابندی"],
+  ai3b: ["Spots patients about to drop out of care and suggests the right nudge.", "देखभाल छोड़ने वाले रोगियों को पहचानता है और सही याद दिलाने का सुझाव देता है।", "சிகிச்சையை விடவிருக்கும் நோயாளர்களைக் கண்டு சரியான நினைவூட்டலைப் பரிந்துரைக்கும்.", "చికిత్స వదిలేయబోయే రోగులను గుర్తించి సరైన రిమైండర్ సూచిస్తుంది.", "ചികിത്സ ഉപേക്ഷിക്കാൻ സാധ്യതയുള്ള രോഗികളെ കണ്ടെത്തി ശരിയായ ഓർമ്മപ്പെടുത്തൽ നിർദ്ദേശിക്കുന്നു.", "ಚಿಕಿತ್ಸೆ ಬಿಡಲಿರುವ ರೋಗಿಗಳನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಜ್ಞಾಪನೆ ಸೂಚಿಸುತ್ತದೆ.", "उपचार सोडू पाहणारे रुग्ण ओळखतो व योग्य आठवण सुचवतो.", "يرصد المرضى المعرّضين لترك العلاج ويقترح التذكير المناسب.", "علاج چھوڑنے والے مریضوں کو پہچانتا ہے اور مناسب یاد دہانی تجویز کرتا ہے۔"],
+  ai4t: ["Expiry arbitrage", "एक्सपायरी प्रबंधन", "காலாவதி மேலாண்மை", "గడువు నిర్వహణ", "കാലാവധി മാനേജ്മെന്റ്", "ಅವಧಿ ನಿರ್ವಹಣೆ", "मुदत व्यवस्थापन", "إدارة الصلاحية", "میعاد کا انتظام"],
+  ai4b: ["Moves near-expiry medicines to where they will be used, before they are wasted.", "बेकार होने से पहले जल्द एक्सपायर होने वाली दवाएँ वहाँ भेजता है जहाँ उनका उपयोग हो।", "வீணாகும் முன், காலாவதியாகவிருக்கும் மருந்துகளைப் பயன்படும் இடத்துக்கு நகர்த்தும்.", "వృథా కాకముందే, గడువు దగ్గరపడిన మందులను వాడే చోటుకు తరలిస్తుంది.", "പാഴാകും മുമ്പ്, കാലാവധി അടുത്ത മരുന്നുകൾ ഉപയോഗിക്കുന്നിടത്തേക്ക് മാറ്റുന്നു.", "ವ್ಯರ್ಥವಾಗುವ ಮೊದಲು, ಅವಧಿ ಮೀರಲಿರುವ ಔಷಧಗಳನ್ನು ಬಳಸುವ ಕಡೆಗೆ ಸಾಗಿಸುತ್ತದೆ.", "वाया जाण्यापूर्वी, मुदत संपत आलेली औषधे वापरली जातील तिथे पाठवतो.", "ينقل الأدوية القريبة من انتهاء الصلاحية إلى حيث ستُستخدم قبل أن تُهدر.", "ضائع ہونے سے پہلے، میعاد کے قریب دوائیں وہاں منتقل کرتا ہے جہاں استعمال ہوں۔"],
+  ai5t: ["Sepsis early warning", "सेप्सिस प्रारंभिक चेतावनी", "செப்சிஸ் முன்னெச்சரிக்கை", "సెప్సిస్ ముందస్తు హెచ్చరిక", "സെപ്സിസ് മുന്നറിയിപ്പ്", "ಸೆಪ್ಸಿಸ್ ಮುನ್ನೆಚ್ಚರಿಕೆ", "सेप्सिस पूर्वसूचना", "إنذار مبكر للإنتان", "سیپسس کی ابتدائی وارننگ"],
+  ai5b: ["Watches vitals and labs together and alerts the team early.", "वाइटल्स और लैब को साथ देखकर टीम को जल्दी सचेत करता है।", "உயிர்க்குறிகள், ஆய்வக முடிவுகளை ஒன்றாகக் கண்காணித்து குழுவை முன்கூட்டியே எச்சரிக்கும்.", "వైటల్స్, ల్యాబ్ ఫలితాలను కలిపి గమనించి బృందాన్ని ముందే హెచ్చరిస్తుంది.", "വൈറ്റൽസും ലാബ് ഫലങ്ങളും ഒരുമിച്ച് നിരീക്ഷിച്ച് ടീമിനെ നേരത്തേ അറിയിക്കുന്നു.", "ವೈಟಲ್ಸ್ ಮತ್ತು ಲ್ಯಾಬ್ ಫಲಿತಾಂಶಗಳನ್ನು ಒಟ್ಟಿಗೆ ಗಮನಿಸಿ ತಂಡವನ್ನು ಬೇಗ ಎಚ್ಚರಿಸುತ್ತದೆ.", "व्हायटल्स व लॅब निकाल एकत्र पाहून टीमला लवकर सावध करतो.", "يراقب العلامات الحيوية والتحاليل معًا وينبّه الفريق مبكرًا.", "وائٹلز اور لیب کو ساتھ دیکھ کر ٹیم کو جلد خبردار کرتا ہے۔"],
+  rb_owner: ["Both branches every morning, in rupees.", "हर सुबह दोनों शाखाएँ, रुपयों में।", "ஒவ்வொரு காலையும் இரு கிளைகளும், ரூபாயில்.", "ప్రతి ఉదయం రెండు శాఖలు, రూపాయల్లో.", "എല്ലാ രാവിലെയും രണ്ട് ശാഖകളും, രൂപയിൽ.", "ಪ್ರತಿ ಬೆಳಿಗ್ಗೆ ಎರಡೂ ಶಾಖೆಗಳು, ರೂಪಾಯಿಯಲ್ಲಿ.", "दररोज सकाळी दोन्ही शाखा, रुपयांत.", "الفرعان كل صباح، بالأرقام.", "ہر صبح دونوں برانچیں، روپوں میں۔"],
+  rb_doctor: ["The sickest patient first, with the reason shown.", "सबसे गंभीर रोगी पहले, कारण के साथ।", "மிகவும் தீவிர நோயாளர் முதலில், காரணத்துடன்.", "అత్యంత తీవ్ర రోగి ముందు, కారణంతో.", "ഏറ്റവും ഗുരുതര രോഗി ആദ്യം, കാരണം സഹിതം.", "ಅತ್ಯಂತ ಗಂಭೀರ ರೋಗಿ ಮೊದಲು, ಕಾರಣ ಸಹಿತ.", "सर्वात गंभीर रुग्ण आधी, कारणासह.", "المريض الأخطر أولًا، مع السبب.", "سب سے سنگین مریض پہلے، وجہ کے ساتھ۔"],
+  rb_frontdesk: ["Every enquiry in one inbox; no re-typing.", "हर पूछताछ एक इनबॉक्स में; दोबारा लिखना नहीं।", "அனைத்து விசாரணைகளும் ஒரே இன்பாக்ஸில்; மீண்டும் எழுத வேண்டாம்.", "ప్రతి విచారణ ఒకే ఇన్‌బాక్స్‌లో; మళ్లీ రాయక్కర్లేదు.", "എല്ലാ അന്വേഷണങ്ങളും ഒരു ഇൻബോക്സിൽ; വീണ്ടും ടൈപ്പ് വേണ്ട.", "ಎಲ್ಲ ವಿಚಾರಣೆಗಳು ಒಂದೇ ಇನ್‌ಬಾಕ್ಸ್‌ನಲ್ಲಿ; ಮತ್ತೆ ಟೈಪ್ ಬೇಡ.", "प्रत्येक चौकशी एका इनबॉक्समध्ये; पुन्हा टाइप नको.", "كل الاستفسارات في صندوق واحد؛ دون إعادة كتابة.", "ہر پوچھ گچھ ایک ان باکس میں؛ دوبارہ ٹائپ نہیں۔"],
+  rb_billingRole: ["Dues chased and missed charges caught.", "बकाया की वसूली और छूटे शुल्क पकड़े गए।", "நிலுவை வசூல், தவறிய கட்டணங்கள் கண்டறிதல்.", "బకాయిల వసూలు, తప్పిన ఛార్జీలు పట్టుకోవడం.", "കുടിശ്ശിക പിന്തുടരൽ, വിട്ടുപോയ ചാർജുകൾ കണ്ടെത്തൽ.", "ಬಾಕಿ ವಸೂಲಿ, ತಪ್ಪಿದ ಶುಲ್ಕ ಪತ್ತೆ.", "थकबाकी वसुली व सुटलेले शुल्क पकडणे.", "متابعة المستحقات واكتشاف الرسوم الفائتة.", "بقایا جات کی وصولی اور چھوٹے چارجز کی گرفت۔"],
+  rb_pharmacist: ["Stock, expiry and dispensing in one place.", "स्टॉक, एक्सपायरी और वितरण एक जगह।", "இருப்பு, காலாவதி, வழங்கல் ஒரே இடத்தில்.", "స్టాక్, గడువు, పంపిణీ ఒకే చోట.", "സ്റ്റോക്ക്, കാലാവധി, വിതരണം ഒരിടത്ത്.", "ದಾಸ್ತಾನು, ಅವಧಿ, ವಿತರಣೆ ಒಂದೇ ಕಡೆ.", "साठा, मुदत व वितरण एकाच ठिकाणी.", "المخزون والصلاحية والصرف في مكان واحد.", "اسٹاک، میعاد اور تقسیم ایک جگہ۔"],
+  rb_patient: ["Book, pay and get reports on the phone.", "फ़ोन पर बुक करें, भुगतान करें और रिपोर्ट पाएँ।", "போனில் முன்பதிவு, கட்டணம், அறிக்கைகள்.", "ఫోన్‌లో బుక్, చెల్లింపు, రిపోర్ట్‌లు.", "ഫോണിൽ ബുക്ക് ചെയ്യുക, പണമടയ്ക്കുക, റിപ്പോർട്ട് നേടുക.", "ಫೋನ್‌ನಲ್ಲಿ ಬುಕ್, ಪಾವತಿ, ವರದಿಗಳು.", "फोनवर बुक करा, पैसे भरा व अहवाल मिळवा.", "احجز وادفع واستلم التقارير على هاتفك.", "فون پر بکنگ، ادائیگی اور رپورٹس۔"],
+  cp_abdm: ["ABHA linking and consent-based record sharing.", "ABHA लिंकिंग और सहमति से रिकॉर्ड साझा करना।", "ABHA இணைப்பு, ஒப்புதலுடன் பதிவு பகிர்வு.", "ABHA లింకింగ్, సమ్మతితో రికార్డు భాగస్వామ్యం.", "ABHA ലിങ്കിംഗ്, സമ്മതത്തോടെ രേഖ പങ്കിടൽ.", "ABHA ಜೋಡಣೆ, ಸಮ್ಮತಿಯೊಂದಿಗೆ ದಾಖಲೆ ಹಂಚಿಕೆ.", "ABHA जोडणी व संमतीने नोंदी सामायिक.", "ربط ABHA ومشاركة السجلات بالموافقة.", "ABHA لنکنگ اور رضامندی سے ریکارڈ کا تبادلہ۔"],
+  cp_dpdp: ["Consent for each purpose, easy withdrawal, full audit.", "हर उद्देश्य के लिए सहमति, आसान वापसी, पूरा ऑडिट।", "ஒவ்வொரு நோக்கத்துக்கும் ஒப்புதல், எளிய திரும்பப்பெறல், முழு தணிக்கை.", "ప్రతి ఉద్దేశానికి సమ్మతి, సులభ ఉపసంహరణ, పూర్తి ఆడిట్.", "ഓരോ ആവശ്യത്തിനും സമ്മതം, എളുപ്പത്തിൽ പിൻവലിക്കൽ, പൂർണ്ണ ഓഡിറ്റ്.", "ಪ್ರತಿ ಉದ್ದೇಶಕ್ಕೆ ಸಮ್ಮತಿ, ಸುಲಭ ಹಿಂಪಡೆಯುವಿಕೆ, ಪೂರ್ಣ ಲೆಕ್ಕಪರಿಶೋಧನೆ.", "प्रत्येक उद्देशासाठी संमती, सोपी माघार, संपूर्ण ऑडिट.", "موافقة لكل غرض، وسحب سهل، وتدقيق كامل.", "ہر مقصد کے لیے رضامندی، آسان واپسی، مکمل آڈٹ۔"],
+  cp_irdai: ["Live timers for 1-hour cashless and 3-hour discharge approval.", "1 घंटे कैशलेस और 3 घंटे डिस्चार्ज अनुमोदन के लाइव टाइमर।", "1 மணி நேர கேஷ்லெஸ், 3 மணி நேர வெளியேற்ற ஒப்புதலுக்கான நேரடி டைமர்கள்.", "1 గంట క్యాష్‌లెస్, 3 గంటల డిశ్చార్జ్ ఆమోదానికి లైవ్ టైమర్లు.", "1 മണിക്കൂർ കാഷ്‌ലെസ്, 3 മണിക്കൂർ ഡിസ്ചാർജ് അംഗീകാരത്തിന് ലൈവ് ടൈമറുകൾ.", "1 ಗಂಟೆ ಕ್ಯಾಶ್‌ಲೆಸ್, 3 ಗಂಟೆ ಡಿಸ್ಚಾರ್ಜ್ ಅನುಮೋದನೆಗೆ ಲೈವ್ ಟೈಮರ್‌ಗಳು.", "1 तास कॅशलेस व 3 तास डिस्चार्ज मंजुरीसाठी लाइव्ह टायमर.", "مؤقتات مباشرة لموافقة الدفع المباشر خلال ساعة والخروج خلال 3 ساعات.", "1 گھنٹہ کیش لیس اور 3 گھنٹے ڈسچارج منظوری کے لائیو ٹائمر۔"],
+  cp_nabh: ["Complete, auditable records for accreditation.", "प्रत्यायन के लिए पूर्ण, ऑडिट योग्य रिकॉर्ड।", "அங்கீகாரத்துக்கான முழுமையான, தணிக்கை செய்யக்கூடிய பதிவுகள்.", "గుర్తింపు కోసం పూర్తి, ఆడిట్ చేయదగిన రికార్డులు.", "അക്രഡിറ്റേഷനായി പൂർണ്ണവും ഓഡിറ്റ് ചെയ്യാവുന്നതുമായ രേഖകൾ.", "ಮಾನ್ಯತೆಗಾಗಿ ಸಂಪೂರ್ಣ, ಲೆಕ್ಕಪರಿಶೋಧಿಸಬಹುದಾದ ದಾಖಲೆಗಳು.", "मानांकनासाठी संपूर्ण, ऑडिट करण्याजोग्या नोंदी.", "سجلات كاملة وقابلة للتدقيق للاعتماد.", "منظوری کے لیے مکمل، قابلِ آڈٹ ریکارڈ۔"],
+  ctaTitle: ["See your hospital on one screen", "अपना अस्पताल एक स्क्रीन पर देखें", "உங்கள் மருத்துவமனையை ஒரே திரையில் பாருங்கள்", "మీ ఆసుపత్రిని ఒకే స్క్రీన్‌పై చూడండి", "നിങ്ങളുടെ ആശുപത്രി ഒരു സ്ക്രീനിൽ കാണുക", "ನಿಮ್ಮ ಆಸ್ಪತ್ರೆಯನ್ನು ಒಂದೇ ಪರದೆಯಲ್ಲಿ ನೋಡಿ", "तुमचे रुग्णालय एका स्क्रीनवर पहा", "شاهد مستشفاك على شاشة واحدة", "اپنا ہسپتال ایک اسکرین پر دیکھیں"],
+  ctaBody: ["Explore the demo with sample data, or talk to us about a pilot at one branch.", "नमूना डेटा के साथ डेमो देखें, या एक शाखा में पायलट के बारे में हमसे बात करें।", "மாதிரி தரவுடன் டெமோவைப் பாருங்கள், அல்லது ஒரு கிளையில் முன்னோட்டம் பற்றிப் பேசுங்கள்.", "నమూనా డేటాతో డెమో చూడండి, లేదా ఒక శాఖలో పైలట్ గురించి మాతో మాట్లాడండి.", "സാമ്പിൾ ഡാറ്റയോടെ ഡെമോ കാണുക, അല്ലെങ്കിൽ ഒരു ശാഖയിലെ പൈലറ്റിനെക്കുറിച്ച് സംസാരിക്കുക.", "ಮಾದರಿ ಡೇಟಾದೊಂದಿಗೆ ಡೆಮೋ ನೋಡಿ, ಅಥವಾ ಒಂದು ಶಾಖೆಯ ಪೈಲಟ್ ಬಗ್ಗೆ ಮಾತನಾಡಿ.", "नमुना डेटासह डेमो पहा, किंवा एका शाखेतील पायलटबद्दल आमच्याशी बोला.", "استكشف العرض ببيانات تجريبية، أو تحدّث إلينا عن تجربة في فرع واحد.", "نمونہ ڈیٹا کے ساتھ ڈیمو دیکھیں، یا ایک برانچ میں پائلٹ کے بارے میں ہم سے بات کریں۔"],
+  footTag: ["Technology That Shapes the Future.", "Technology That Shapes the Future.", "Technology That Shapes the Future.", "Technology That Shapes the Future.", "Technology That Shapes the Future.", "Technology That Shapes the Future.", "Technology That Shapes the Future.", "Technology That Shapes the Future.", "Technology That Shapes the Future."],
 };
 
 /* ------------------------------------------------------------- currency */
@@ -300,7 +345,7 @@ const SLOTS = ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "1
 interface QueueItem { token: number; name: string; age: number; doctorId: number; branch: Branch; priority: Priority; status: "waiting" | "serving" | "done" }
 interface Appt { id: number; name: string; mobile: string; doctorId: number; day: "today" | "tomorrow"; slot: string; confirmed: boolean }
 interface Triage { id: number; name: string; age: number; complaint: string; risk: number; reasons: string[]; reviewed: boolean }
-interface BedT { id: string; ward: string; branch: Branch; status: "occupied" | "free" | "cleaning"; patient?: string }
+interface BedT { id: string; ward: string; branch: Branch; status: "occupied" | "free" | "cleaning"; patient?: string | undefined }
 interface Bill { no: string; name: string; branch: Branch; total: number; paid: number; ageDays: number; reminded: boolean }
 interface Leak { id: number; kind: "unbilled" | "underCoded"; text: string; amount: number; billNo: string; state: "open" | "added" | "dismissed" }
 interface Lab { id: number; patient: string; test: string; step: number; critical: boolean; notified: boolean; value: string }
@@ -344,10 +389,10 @@ function initialData(): Data {
       { id: 4, name: "Arjun Patel", age: 34, complaint: "Knee pain after fall", risk: 12, reasons: ["Normal vitals", "Able to walk", "No head injury reported"], reviewed: true },
     ],
     beds: [
-      ...["G-01", "G-02", "G-03", "G-04", "G-05", "G-06"].map((id, i) => ({ id, ward: "General", branch: "A" as Branch, status: (["occupied", "occupied", "free", "cleaning", "occupied", "free"] as const)[i], patient: ["Ravi S.", "Kavita J.", undefined, undefined, "Suresh N.", undefined][i] })),
-      ...["ICU-1", "ICU-2", "ICU-3"].map((id, i) => ({ id, ward: "ICU", branch: "A" as Branch, status: (["occupied", "occupied", "free"] as const)[i], patient: ["Anil K.", "Meena G.", undefined][i] })),
-      ...["M-01", "M-02", "M-03", "M-04"].map((id, i) => ({ id, ward: "Maternity", branch: "B" as Branch, status: (["occupied", "free", "occupied", "cleaning"] as const)[i], patient: ["Asha P.", undefined, "Rekha V.", undefined][i] })),
-      ...["C-01", "C-02", "C-03"].map((id, i) => ({ id, ward: "Cardiac", branch: "B" as Branch, status: (["occupied", "free", "free"] as const)[i], patient: ["Imran A.", undefined, undefined][i] })),
+      ...["G-01", "G-02", "G-03", "G-04", "G-05", "G-06"].map((id, i) => ({ id, ward: "General", branch: "A" as Branch, status: (["occupied", "occupied", "free", "cleaning", "occupied", "free"] as const)[i]!, patient: ["Ravi S.", "Kavita J.", undefined, undefined, "Suresh N.", undefined][i] })),
+      ...["ICU-1", "ICU-2", "ICU-3"].map((id, i) => ({ id, ward: "ICU", branch: "A" as Branch, status: (["occupied", "occupied", "free"] as const)[i]!, patient: ["Anil K.", "Meena G.", undefined][i] })),
+      ...["M-01", "M-02", "M-03", "M-04"].map((id, i) => ({ id, ward: "Maternity", branch: "B" as Branch, status: (["occupied", "free", "occupied", "cleaning"] as const)[i]!, patient: ["Asha P.", undefined, "Rekha V.", undefined][i] })),
+      ...["C-01", "C-02", "C-03"].map((id, i) => ({ id, ward: "Cardiac", branch: "B" as Branch, status: (["occupied", "free", "free"] as const)[i]!, patient: ["Imran A.", undefined, undefined][i] })),
     ],
     bills: [
       { no: "A-261104-0041", name: "Gopal Rao", branch: "A", total: 48500, paid: 20000, ageDays: 64, reminded: false },
@@ -473,8 +518,8 @@ const btnPrimary = `inline-flex min-h-[44px] items-center justify-center gap-2 r
 const btnViolet = `inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#9B5DE5] px-4 text-sm font-bold text-[#121214] hover:bg-[#AC77EA] dark:bg-[#B48CF0] ${focusRing}`;
 const control = `min-h-[44px] rounded-lg border border-[#D5D8DD] bg-white px-3 text-sm text-[#121214] dark:border-[#34343B] dark:bg-[#121214] dark:text-[#E7E9EC] ${focusRing}`;
 const input = `${control} w-full`;
-const h2 = "font-['Montserrat',ui-sans-serif,system-ui,sans-serif] text-base font-bold tracking-tight sm:text-lg";
-const label = "text-[11px] font-bold uppercase tracking-[0.08em] text-[#5B616B] dark:text-[#9CA2AC]";
+const h2 = "font-['Geist',ui-sans-serif,system-ui,sans-serif] text-[15px] font-semibold tracking-[-0.015em] sm:text-[17px]";
+const label = "font-['Geist_Mono',ui-monospace,monospace] text-[10.5px] font-medium uppercase tracking-[0.1em] text-[#5B616B] dark:text-[#9CA2AC]";
 const hair = "border-[#ECEDF0] dark:border-[#26262C]";
 
 type Tone = "good" | "warn" | "bad" | "info" | "neutral";
@@ -501,7 +546,7 @@ function Kpi({ label: l, value, sub, tone }: { label: string; value: string; sub
   return (
     <div className={`${panel} min-w-0 p-4`}>
       <div className={label}>{l}</div>
-      <div className="mt-1 truncate font-['Montserrat',ui-sans-serif,sans-serif] text-xl font-bold tabular-nums sm:text-2xl">{value}</div>
+      <div className="mt-1.5 truncate font-['Geist_Mono',ui-monospace,monospace] text-xl font-medium tracking-[-0.02em] tabular-nums sm:text-[26px]">{value}</div>
       {sub && <div className="mt-1">{tone ? <Pill tone={tone}>{sub}</Pill> : <span className={`text-xs ${muted}`}>{sub}</span>}</div>}
     </div>
   );
@@ -510,20 +555,21 @@ function Empty({ text }: { text: string }) { return <p className={`rounded-lg bo
 
 /* ------------------------------------------------------------------- logo */
 
-function Logo({ onDark, compact }: { onDark?: boolean; compact?: boolean }) {
+function Logo({ onDark, compact, compactText }: { onDark?: boolean; compact?: boolean; compactText?: boolean }) {
+  // The real Tec Tha mark is /public/tectha-logo.png. Until it is uploaded we show only the product lockup (never a redrawn mark).
   const [failed, setFailed] = useState(false);
-  return (
-    <div className="flex min-w-0 items-center gap-2">
-      {!failed ? <img src="/tectha-logo.png" alt="Tec Tha" width={36} height={36} className="h-9 w-9 shrink-0 object-contain" onError={() => setFailed(true)} />
-        : <span className={`font-['Montserrat',ui-sans-serif,sans-serif] text-lg font-extrabold tracking-tight ${onDark ? "text-[#E7E9EC]" : ""}`}>Tec Tha</span>}
-      {!compact && (
-        <div className="min-w-0 leading-tight">
-          <div className={`truncate font-['Montserrat',ui-sans-serif,sans-serif] text-sm font-bold ${onDark ? "text-[#E7E9EC]" : ""}`}>Tec Tha Vital</div>
-          <div className={`text-[10px] font-bold tracking-[0.18em] ${onDark ? "text-[#9CA2AC]" : muted}`}>HOSPITAL OS</div>
-        </div>
-      )}
+  const ink = onDark ? "text-[#F5F5F7]" : "text-[#121214] dark:text-[#F5F5F7]";
+  const lockup = (
+    <div className="min-w-0 leading-none">
+      <div className={`truncate font-['Geist',ui-sans-serif,system-ui,sans-serif] ${compactText ? "text-[13px]" : "text-[15px]"} font-semibold tracking-[-0.02em] ${ink}`}>Tec Tha Vital</div>
+      {!compactText && <div className={`mt-1 font-['Geist_Mono',ui-monospace,monospace] text-[9.5px] font-medium tracking-[0.2em] ${onDark ? "text-[#9CA2AC]" : "text-[#6B7079] dark:text-[#9CA2AC]"}`}>HOSPITAL OS</div>}
     </div>
   );
+  const mark = !failed && <img src="/tectha-logo.png" alt="Tec Tha" width={32} height={32} className={`${compactText ? "h-6 w-6" : "h-8 w-8"} shrink-0 object-contain`} onError={() => setFailed(true)} />;
+  if (compact) return failed
+    ? <span className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg ${onDark ? "bg-white/10 text-[#F5F5F7]" : "bg-[#121214] text-[#F5F5F7]"} font-['Geist',ui-sans-serif,sans-serif] text-[13px] font-semibold tracking-[-0.02em]`} aria-label="Tec Tha Vital">TV</span>
+    : <div className="flex items-center">{mark}</div>;
+  return <div className="flex min-w-0 items-center gap-2.5">{mark}{lockup}</div>;
 }
 
 /* ================================================================= PAGES */
@@ -617,7 +663,7 @@ function PatientExperience() {
           {serving.map((s) => (
             <div key={s.token} className="rounded-lg bg-[#121214] p-3 text-[#E7E9EC] dark:bg-[#E7E9EC] dark:text-[#121214]">
               <div className="text-[11px] font-bold uppercase tracking-wider opacity-80">{t("nowServing")} · {BRANCH_NAME[s.branch]}</div>
-              <div className="font-['Montserrat',sans-serif] text-3xl font-extrabold tabular-nums">{num(s.token)}</div>
+              <div className="font-['Geist',ui-sans-serif,system-ui,sans-serif] text-3xl font-semibold tabular-nums">{num(s.token)}</div>
               <div className="truncate text-sm">{s.name}</div>
             </div>
           ))}
@@ -817,7 +863,7 @@ function Finance() {
               <tbody>
                 {bills.map((b) => { const bal = b.total - b.paid; return (
                   <tr key={b.no} className={`border-t ${hair}`}>
-                    <td className="py-2"><div className="font-semibold">{b.name}</div><div className={`font-mono text-xs ${muted}`}>{b.no} · {BRANCH_NAME[b.branch]}</div></td>
+                    <td className="py-2"><div className="font-semibold">{b.name}</div><div className={`font-['Geist_Mono',ui-monospace,monospace] text-xs ${muted}`}>{b.no} · {BRANCH_NAME[b.branch]}</div></td>
                     <td className="text-end tabular-nums">{money(b.total)}</td>
                     <td className="text-end tabular-nums">{bal > 0 ? <b>{money(bal)}</b> : <Pill tone="good">{t("paidLabel")}</Pill>}</td>
                     <td className="text-end"><Pill tone={b.ageDays > 45 ? "bad" : b.ageDays > 20 ? "warn" : "neutral"}>{num(b.ageDays)} {t("days")}</Pill></td>
@@ -838,7 +884,7 @@ function Finance() {
             <li key={l.id} className={`border-b pb-3 last:border-0 ${hair} ${l.state !== "open" ? "opacity-60" : ""}`}>
               <div className="flex items-start justify-between gap-2"><Pill tone={l.kind === "unbilled" ? "warn" : "info"}>{t(l.kind)}</Pill><b className="tabular-nums">{money(l.amount)}</b></div>
               <p className="mt-1 text-sm">{l.text}</p>
-              <p className={`font-mono text-xs ${muted}`}>{l.billNo}</p>
+              <p className={`font-['Geist_Mono',ui-monospace,monospace] text-xs ${muted}`}>{l.billNo}</p>
               {l.state === "open" ? (
                 <div className="mt-2 flex flex-wrap gap-2"><button className={btnPrimary} onClick={() => addLeak(l)}>{t("addToBill")}</button><button className={btn} onClick={() => confirm(() => update((d) => ({ ...d, leaks: d.leaks.map((x) => x.id === l.id ? { ...x, state: "dismissed" } : x) }), `Dismissed: ${l.text}`, t("tDone")))}>{t("dismiss")}</button></div>
               ) : <div className="mt-2"><Pill tone={l.state === "added" ? "good" : "neutral"}>{l.state === "added" ? t("recovered") : t("dismiss")}</Pill></div>}
@@ -893,7 +939,7 @@ function Engagement() {
   const { t, data, update, num } = useApp();
   const [sel, setSel] = useState(1);
   const [msg, setMsg] = useState("");
-  const chat = data.chats.find((c) => c.id === sel) ?? data.chats[0];
+  const chat = (data.chats.find((c) => c.id === sel) ?? data.chats[0])!;
   const avgAdh = Math.round(data.churn.reduce((s, c) => s + c.adherence, 0) / data.churn.length);
   const sendMsg = () => {
     if (!msg.trim()) return;
@@ -1005,7 +1051,7 @@ function Supply() {
           <tbody>
             {rows.map((s) => { const sug = suggestion(s); const low = s.qty < s.reorderLevel; return (
               <tr key={s.id} className={`border-t align-top ${hair}`}>
-                <td className="py-2"><div className="font-semibold">{s.drug}</div><div className={`font-mono text-xs ${muted}`}>{s.batch} · {BRANCH_NAME[s.branch]}</div></td>
+                <td className="py-2"><div className="font-semibold">{s.drug}</div><div className={`font-['Geist_Mono',ui-monospace,monospace] text-xs ${muted}`}>{s.batch} · {BRANCH_NAME[s.branch]}</div></td>
                 <td className="py-2 text-end tabular-nums">{num(s.qty)}{low && <div><Pill tone="warn">{t("lowStock")}</Pill></div>}</td>
                 <td className="py-2 text-end"><Pill tone={s.expiryDays <= 45 ? "bad" : s.expiryDays <= 90 ? "warn" : "good"}>{num(s.expiryDays)} {t("days")}</Pill></td>
                 <td className="py-2 ps-3">
@@ -1071,7 +1117,7 @@ function Compliance() {
       </Section>
       <Section title={t("auditLog")}>
         {data.audit.length ? (
-          <ol className="grid max-h-[480px] gap-1 overflow-y-auto font-mono text-xs">
+          <ol className="grid max-h-[480px] gap-1 overflow-y-auto font-['Geist_Mono',ui-monospace,monospace] text-xs">
             {data.audit.map((a, i) => <li key={i} className={`border-b py-1 ${hair}`}><span className={muted}>{a.at}</span> · {a.text}</li>)}
           </ol>
         ) : <Empty text={t("noActions")} />}
@@ -1120,10 +1166,10 @@ function PatientApp() {
       <p className={`mb-3 text-sm ${muted}`}>{t("hello")}, <b className="text-[#121214] dark:text-[#E7E9EC]">Manoj</b> · UHID TT-000036</p>
       {tab === "home" && appt && doc && (
         <div className="grid gap-3">
-          <h2 className="font-['Montserrat',sans-serif] text-2xl font-bold leading-tight">{t("nextAppt")}</h2>
+          <h2 className="font-['Geist',ui-sans-serif,system-ui,sans-serif] text-2xl font-bold leading-tight">{t("nextAppt")}</h2>
           <div className={`${card} grid grid-cols-[1fr_auto] overflow-hidden`}>
             <div className="min-w-0 p-4"><div className={label}>{doc.spec}</div><div className="text-lg font-bold">{doc.name}</div><div className="tabular-nums">{t(appt.day)} · {appt.slot}</div><div className={muted}>{BRANCH_NAME[doc.branch]}</div></div>
-            <div className="grid content-center gap-1 border-s border-dashed border-[#D9D3C7] bg-[#F3EFFB] p-4 text-center dark:border-[#34343B] dark:bg-[#211A2E]"><div className={label}>{t("token")}</div><div className="font-['Montserrat',sans-serif] text-3xl font-extrabold">{num(5)}</div><div className={`font-mono text-xs ${muted}`}>OPD-{appt.id}</div></div>
+            <div className="grid content-center gap-1 border-s border-dashed border-[#D9D3C7] bg-[#F3EFFB] p-4 text-center dark:border-[#34343B] dark:bg-[#211A2E]"><div className={label}>{t("token")}</div><div className="font-['Geist',ui-sans-serif,system-ui,sans-serif] text-3xl font-semibold">{num(5)}</div><div className={`font-['Geist_Mono',ui-monospace,monospace] text-xs ${muted}`}>OPD-{appt.id}</div></div>
           </div>
           {data.patientConfirmed ? <Pill tone="good">{t("confirmed")}</Pill> : <button className={btnViolet} onClick={() => update((d) => ({ ...d, patientConfirmed: true, appts: d.appts.map((a, i) => i === 0 ? { ...a, confirmed: true } : a) }), `Patient confirmed OPD-${appt.id}`, t("confirmed"))}>{t("confirmVisit")}</button>}
           {due.length > 0 && <button className={`${card} flex min-h-[56px] items-center justify-between p-4 text-start ${focusRing}`} onClick={() => setTab("bills")}><span><b className="tabular-nums">{money(due.reduce((s, b) => s + b.amount, 0))}</b> · {t("balance")}</span><ChevronRight size={18} className="rtl:rotate-180" aria-hidden="true" /></button>}
@@ -1132,9 +1178,9 @@ function PatientApp() {
       {tab === "book" && (
         <div className="grid gap-3">
           <h2 className={h2}>{t("bookAppointment")}</h2>
-          <p className={muted}>{DOCTORS[1].name} · {DOCTORS[1].spec} · {t("tomorrow")}</p>
+          <p className={muted}>{DOCTORS[1]!.name} · {DOCTORS[1]!.spec} · {t("tomorrow")}</p>
           <div className="grid grid-cols-3 gap-2">{SLOTS.map((s) => <button key={s} aria-pressed={slot === s} className={`${slot === s ? btnPrimary : btn} tabular-nums`} onClick={() => setSlot(s)}>{s}</button>)}</div>
-          <button className={btnViolet} disabled={!slot} onClick={() => { update((d) => ({ ...d, appts: [...d.appts, { id: 760 + d.appts.length, name: "Manoj Naidu", mobile: "9774348734", doctorId: 2, day: "tomorrow", slot, confirmed: false }] }), `Patient booked ${slot} with ${DOCTORS[1].name}`, t("tBooked", "Manoj")); setSlot(""); setTab("home"); }}>{t("confirmBooking")}</button>
+          <button className={btnViolet} disabled={!slot} onClick={() => { update((d) => ({ ...d, appts: [...d.appts, { id: 760 + d.appts.length, name: "Manoj Naidu", mobile: "9774348734", doctorId: 2, day: "tomorrow", slot, confirmed: false }] }), `Patient booked ${slot} with ${DOCTORS[1]!.name}`, t("tBooked", "Manoj")); setSlot(""); setTab("home"); }}>{t("confirmBooking")}</button>
         </div>
       )}
       {tab === "bills" && (
@@ -1143,7 +1189,7 @@ function PatientApp() {
           {[...myBills].sort((a, b) => Number(data.patientPaid.includes(a.no)) - Number(data.patientPaid.includes(b.no))).map((b) => { const paid = data.patientPaid.includes(b.no); return (
             <div key={b.no} className={`${card} p-4`}>
               <div className="flex items-center justify-between gap-2"><b>{b.desc}</b><span className="tabular-nums">{money(b.amount)}</span></div>
-              <div className={`font-mono text-xs ${muted}`}>{b.no}</div>
+              <div className={`font-['Geist_Mono',ui-monospace,monospace] text-xs ${muted}`}>{b.no}</div>
               <div className="mt-3">{paid ? <Pill tone="good">{t("paidLabel")}</Pill> : <button className={`${btnViolet} w-full`} onClick={() => update((d) => ({ ...d, patientPaid: [...d.patientPaid, b.no] }), `Patient paid ${b.no} (demo)`, t("tPaid", money(b.amount)))}>{t("payNow")}</button>}</div>
             </div>); })}
           {!due.length && <Empty text={t("noDues")} />}
@@ -1169,63 +1215,205 @@ function PatientApp() {
 
 /* ---------------------------------------------------------------- landing */
 
-function Landing({ onDemo, lang, setLang, theme, setTheme }: { onDemo: () => void; lang: LangCode; setLang: (l: LangCode) => void; theme: ThemeMode; setTheme: (t: ThemeMode) => void }) {
-  const { t } = useApp();
+const DISPLAY = "font-['Geist',ui-sans-serif,system-ui,sans-serif]";
+const MONO = "font-['Geist_Mono',ui-monospace,SFMono-Regular,monospace]";
+const SERIF = "font-['Instrument_Serif',ui-serif,Georgia,serif]";
+const wrap = "mx-auto w-full max-w-[1200px] px-5 sm:px-8";
+const eyebrow = `${MONO} text-[11px] font-medium uppercase tracking-[0.14em]`;
+const h2Land = `${DISPLAY} text-[28px] font-semibold leading-[1.15] tracking-[-0.025em] sm:text-[36px]`;
+const AI_ICONS = [IndianRupee, Users, MessageCircle, Truck, Activity] as const;
+const ROLE_ICON: Record<Role, typeof Home> = { owner: LayoutDashboard, doctor: Stethoscope, frontdesk: Users, billingRole: Receipt, pharmacist: FlaskConical, patient: Home };
+
+/** Scales a full-size screen into a frame (used for the live product preview). */
+function ScaledPreview({ width, children }: { width: number; children: ReactNode }) {
+  const box = useRef<HTMLDivElement | null>(null);
+  const inner = useRef<HTMLDivElement | null>(null);
+  const [s, setS] = useState(0.5);
+  const [h, setH] = useState(320);
+  useEffect(() => {
+    const el = box.current, inEl = inner.current;
+    if (!el || !inEl) return;
+    const measure = () => { const k = el.clientWidth / width; setS(k); setH(inEl.scrollHeight * k); };
+    measure();
+    const ro = new ResizeObserver(measure); ro.observe(el); ro.observe(inEl);
+    return () => ro.disconnect();
+  }, [width]);
   return (
-    <div className="min-h-screen bg-[#F5F5F7] text-[#121214] dark:bg-[#121214] dark:text-[#E7E9EC]">
-      <header className="border-b border-[#E1E3E7] bg-white dark:border-[#2A2A30] dark:bg-[#17171A]">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-3 px-4 py-3">
-          <Logo />
-          <div className="ms-auto flex flex-wrap items-center gap-2">
-            <label className="sr-only" htmlFor="ld-lang">{t("language")}</label>
-            <div className="relative"><Globe size={16} className={`pointer-events-none absolute start-3 top-3.5 ${muted}`} aria-hidden="true" />
-              <select id="ld-lang" className={`${control} max-w-[11rem] ps-9`} value={lang} onChange={(e) => setLang(e.target.value as LangCode)}>{LANGS.map((l) => <option key={l.code} value={l.code}>{l.label}</option>)}</select></div>
-            <ThemeSwitch theme={theme} setTheme={setTheme} />
-            <button className={btnViolet} onClick={onDemo}>{t("tryDemo")}<ArrowRight size={16} className="rtl:rotate-180" aria-hidden="true" /></button>
+    <div ref={box} dir="ltr" className="relative w-full overflow-hidden" style={{ height: h }} aria-hidden="true">
+      <div ref={inner} className="pointer-events-none absolute left-0 top-0 origin-top-left select-none" style={{ width, transform: `scale(${s})` }}>{children}</div>
+    </div>
+  );
+}
+
+function Landing({ onDemo, lang, setLang, theme, setTheme }: { onDemo: (p?: Page) => void; lang: LangCode; setLang: (l: LangCode) => void; theme: ThemeMode; setTheme: (t: ThemeMode) => void }) {
+  const { t, num } = useApp();
+  const reveal = "motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-3 motion-safe:duration-700";
+  const ctaPrimary = `inline-flex min-h-[48px] items-center justify-center gap-2 rounded-full bg-[#8B4FDB] px-6 text-[15px] font-semibold text-white shadow-[0_8px_30px_-8px_rgba(155,93,229,0.6)] transition hover:bg-[#7A45C7] ${focusRing}`;
+  const ctaGhostDark = `inline-flex min-h-[48px] items-center justify-center gap-2 rounded-full border border-white/15 px-6 text-[15px] font-medium text-[#E7E9EC] transition hover:border-white/35 hover:bg-white/5 ${focusRing}`;
+  const stats: [number, string][] = [[MODULE_PAGES.length, "stModules"], [LANGS.length, "stLanguages"], [CURRENCIES.length, "stCurrencies"], [ROLES.length, "stRoles"]];
+  const compliance: [string, string][] = [["ABDM · ABHA", "cp_abdm"], ["DPDP Act 2023", "cp_dpdp"], ["IRDAI 2024", "cp_irdai"], ["NABH", "cp_nabh"]];
+  return (
+    <div className={`min-h-screen bg-[#F7F7F9] ${DISPLAY} text-[#121214] antialiased dark:bg-[#0E0E10] dark:text-[#E7E9EC]`}>
+      {/* ---------- header + hero (graphite in both themes) ---------- */}
+      <div className="relative overflow-hidden bg-[#121214] text-[#E7E9EC]">
+        <div className="pointer-events-none absolute -top-40 left-1/2 h-[520px] w-[900px] -translate-x-1/2 rounded-full bg-[radial-gradient(closest-side,rgba(155,93,229,0.22),transparent)]" aria-hidden="true" />
+        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.035)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.035)_1px,transparent_1px)] bg-[size:56px_56px] [mask-image:radial-gradient(ellipse_at_top,black_30%,transparent_75%)]" aria-hidden="true" />
+        <header className="relative border-b border-white/10">
+          <div className={`${wrap} flex min-h-[68px] flex-wrap items-center gap-3 py-3`}>
+            <Logo onDark />
+            <nav className="ms-auto flex flex-wrap items-center gap-2" aria-label={t("menu")}>
+              <label className="sr-only" htmlFor="ld-lang">{t("language")}</label>
+              <div className="relative"><Globe size={15} className="pointer-events-none absolute start-3 top-[14px] text-[#9CA2AC]" aria-hidden="true" />
+                <select id="ld-lang" className={`min-h-[44px] max-w-[10.5rem] rounded-full border border-white/15 bg-transparent pe-3 ps-9 text-sm text-[#E7E9EC] ${focusRing}`} value={lang} onChange={(e) => setLang(e.target.value as LangCode)}>{LANGS.map((l) => <option key={l.code} value={l.code} className="text-[#121214]">{l.label}</option>)}</select></div>
+              <ThemeSwitch theme={theme} setTheme={setTheme} dark />
+              <button className={`${ctaPrimary} min-h-[44px] px-5 text-sm`} onClick={() => onDemo()}>{t("ctaLive")}<ArrowRight size={15} className="rtl:rotate-180" aria-hidden="true" /></button>
+            </nav>
           </div>
-        </div>
-      </header>
-      <main id="main">
-        <section className="mx-auto grid max-w-6xl gap-6 px-4 py-12 md:py-20">
-          <p className={label}>Tec Tha Vital · Hospital OS · Tec Tha Consultancy Services</p>
-          <h1 className="max-w-4xl font-['Montserrat',ui-sans-serif,sans-serif] text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl">{t("heroTitle")}</h1>
-          <p className={`max-w-2xl text-lg ${muted}`}>{t("heroSub")}</p>
-          <div className="flex flex-wrap gap-3"><button className={btnViolet} onClick={onDemo}>{t("tryDemo")}<ArrowRight size={16} className="rtl:rotate-180" aria-hidden="true" /></button><a className={btn} href="mailto:team@tectha.com"><Mail size={16} aria-hidden="true" />team@tectha.com</a></div>
+        </header>
+        <section className={`${wrap} relative grid gap-12 pb-16 pt-14 sm:pt-20 lg:grid-cols-[1.02fr_1fr] lg:items-center lg:gap-10 lg:pb-24`}>
+          <div className={reveal}>
+            <p className={`${eyebrow} text-[#B48CF0]`}>Tec Tha Vital · Hospital OS</p>
+            <h1 className="mt-5 text-[40px] font-semibold leading-[1.04] tracking-[-0.035em] sm:text-[56px] lg:text-[64px]">
+              <span className={`${lang === "en" ? `${SERIF} font-normal italic tracking-[-0.01em]` : "font-semibold"} block bg-[linear-gradient(100deg,#FFFFFF_0%,#E7E9EC_35%,#9CA2AC_60%,#E7E9EC_85%)] bg-clip-text text-transparent`}>{t("heroEm")}</span>
+              <span className="block text-[#F5F5F7]">{t("heroRest")}</span>
+            </h1>
+            <p className="mt-6 max-w-[34rem] text-[17px] leading-[1.6] text-[#B9BDC4]">{t("heroSub")}</p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <button className={ctaPrimary} onClick={() => onDemo()}>{t("ctaLive")}<ArrowRight size={16} className="rtl:rotate-180" aria-hidden="true" /></button>
+              <a className={ctaGhostDark} href="mailto:team@tectha.com"><Mail size={16} aria-hidden="true" />{t("ctaTalk")}</a>
+            </div>
+            <p className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-1 text-[13px] text-[#9CA2AC]">
+              <ShieldCheck size={15} className="text-[#B48CF0]" aria-hidden="true" /><span>{t("trustLine")}</span>
+              <span className="text-white/20" aria-hidden="true">/</span><span className={MONO}>ABDM · DPDP 2023 · IRDAI 2024</span>
+            </p>
+          </div>
+          <div className={`${reveal} relative motion-safe:delay-150`}>
+            <div className="pointer-events-none absolute -inset-6 rounded-[28px] bg-[radial-gradient(closest-side,rgba(155,93,229,0.28),transparent)] blur-2xl" aria-hidden="true" />
+            <figure className="relative overflow-hidden rounded-2xl border border-white/10 bg-[#1A1A1E] shadow-[0_40px_80px_-30px_rgba(0,0,0,0.8)]">
+              <div className="flex items-center gap-2 border-b border-white/10 px-4 py-2.5">
+                <span className="h-2.5 w-2.5 rounded-full bg-white/15" /><span className="h-2.5 w-2.5 rounded-full bg-white/15" /><span className="h-2.5 w-2.5 rounded-full bg-white/15" />
+                <span className={`${MONO} ms-3 truncate text-[11px] text-[#9CA2AC]`}>vital.tectha.com / dashboard</span>
+              </div>
+              <div className="bg-[#F7F7F9] p-3 text-[#121214]">
+                <ScaledPreview width={1120}><div className="bg-[#F7F7F9] p-4"><Dashboard /></div></ScaledPreview>
+              </div>
+              <figcaption className={`${MONO} border-t border-white/10 px-4 py-2 text-[11px] text-[#9CA2AC]`}>{t("previewLabel")}</figcaption>
+            </figure>
+          </div>
         </section>
-        <section className="border-y border-[#E1E3E7] bg-white py-12 dark:border-[#2A2A30] dark:bg-[#17171A]" aria-labelledby="mods">
-          <div className="mx-auto max-w-6xl px-4">
-            <h2 id="mods" className="font-['Montserrat',sans-serif] text-2xl font-bold tracking-tight">{t("modulesTitle")}</h2>
-            <div className="mt-6 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="relative border-t border-white/10">
+          <dl className={`${wrap} grid grid-cols-2 sm:grid-cols-4`}>
+            {stats.map(([n, k], i) => (
+              <div key={k} className={`py-6 ${i ? "sm:border-s sm:border-white/10 sm:ps-8" : ""} ${i % 2 ? "border-s border-white/10 ps-5 sm:ps-8" : ""}`}>
+                <dt className="sr-only">{t(k)}</dt>
+                <dd className="flex items-baseline gap-2"><span className={`${MONO} text-[28px] font-medium tabular-nums text-white`}>{num(n)}</span><span className="text-sm text-[#9CA2AC]">{t(k)}</span></dd>
+              </div>))}
+          </dl>
+        </div>
+      </div>
+
+      <main id="main">
+        {/* ---------- modules ---------- */}
+        <section className="py-20 sm:py-28" aria-labelledby="mods">
+          <div className={wrap}>
+            <div className="grid gap-4 lg:grid-cols-[1fr_1.1fr] lg:items-end">
+              <div><p className={`${eyebrow} text-[#7A45C7] dark:text-[#B48CF0]`}>01 · {t("stModules")}</p><h2 id="mods" className={`${h2Land} mt-3`}>{t("modulesTitle")}</h2></div>
+              <p className={`text-[16px] leading-[1.6] ${muted}`}>{t("modulesSub")}</p>
+            </div>
+            <div className="mt-12 grid overflow-hidden rounded-2xl border border-[#E4E5E9] bg-[#E4E5E9] gap-px sm:grid-cols-2 lg:grid-cols-4 dark:border-[#26262C] dark:bg-[#26262C]">
               {MODULE_PAGES.map((p) => { const Icon = PAGE_ICON[p]; return (
-                <div key={p} className={`border-t-2 border-[#121214] pt-4 dark:border-[#E7E9EC]`}>
-                  <Icon size={22} aria-hidden="true" />
-                  <h3 className="mt-2 font-bold">{t(p)}</h3>
-                  <p className={`mt-1 text-sm ${muted}`}>{t(`md_${p}`)}</p>
-                </div>); })}
+                <button key={p} onClick={() => onDemo(p)} className={`group flex flex-col items-start gap-4 bg-white p-6 text-start transition hover:bg-[#FBFAFE] dark:bg-[#141417] dark:hover:bg-[#18161D] ${focusRing}`}>
+                  <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#9B5DE5]/10 text-[#7A45C7] ring-1 ring-inset ring-[#9B5DE5]/15 dark:text-[#C9A9F5]"><Icon size={19} aria-hidden="true" /></span>
+                  <span><span className="block text-[16px] font-semibold tracking-[-0.01em]">{t(p)}</span><span className={`mt-1.5 block text-[14px] leading-[1.55] ${muted}`}>{t(`md_${p}`)}</span></span>
+                  <span className="mt-auto inline-flex items-center gap-1 text-[13px] font-medium text-[#7A45C7] dark:text-[#C9A9F5]">{t("seeIt")}<ArrowRight size={13} className="transition group-hover:translate-x-0.5 rtl:rotate-180 rtl:group-hover:-translate-x-0.5" aria-hidden="true" /></span>
+                </button>); })}
             </div>
           </div>
         </section>
-        <section className="mx-auto grid max-w-6xl gap-8 px-4 py-12 lg:grid-cols-2" aria-label={t("whoTitle")}>
-          <div>
-            <h2 className="font-['Montserrat',sans-serif] text-2xl font-bold tracking-tight">{t("whoTitle")}</h2>
-            <ul className="mt-4 grid grid-cols-2 gap-2">
-              {ROLES.map((r) => <li key={r} className={`${panel} px-3 py-3 text-sm font-semibold`}>{t(r)}</li>)}
-            </ul>
-          </div>
-          <div>
-            <h2 className="font-['Montserrat',sans-serif] text-2xl font-bold tracking-tight">{t("trustTitle")}</h2>
-            <p className={`mt-4 ${muted}`}>{t("trustBody")}</p>
-            <div className="mt-4 flex flex-wrap gap-2"><Pill tone="info">ABDM · ABHA</Pill><Pill tone="info">DPDP 2023</Pill><Pill tone="info">IRDAI 2024</Pill><Pill tone="info">NABH-ready records</Pill></div>
+
+        {/* ---------- how it works ---------- */}
+        <section className="border-y border-[#E4E5E9] bg-white py-20 sm:py-24 dark:border-[#26262C] dark:bg-[#121214]" aria-labelledby="how">
+          <div className={wrap}>
+            <p className={`${eyebrow} text-[#7A45C7] dark:text-[#B48CF0]`}>02</p>
+            <h2 id="how" className={`${h2Land} mt-3`}>{t("howTitle")}</h2>
+            <ol className="mt-12 grid gap-10 md:grid-cols-3 md:gap-8">
+              {[1, 2, 3].map((n) => (
+                <li key={n} className="relative border-t border-[#121214] pt-6 dark:border-[#E7E9EC]">
+                  <span className={`${MONO} text-[13px] text-[#9CA2AC]`}>0{n}</span>
+                  <h3 className="mt-3 text-[20px] font-semibold tracking-[-0.015em]">{t(`how${n}t`)}</h3>
+                  <p className={`mt-2 text-[15px] leading-[1.6] ${muted}`}>{t(`how${n}b`)}</p>
+                </li>))}
+            </ol>
           </div>
         </section>
-        <section className="bg-[#121214] py-12 text-[#E7E9EC]" aria-labelledby="contact">
-          <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4">
-            <div><h2 id="contact" className="font-['Montserrat',sans-serif] text-2xl font-bold">{t("contactTitle")}</h2><p className="mt-1 text-[#9CA2AC]">team@tectha.com · <a className="underline" href="https://www.tectha.com">www.tectha.com</a></p></div>
-            <button className={btnViolet} onClick={onDemo}>{t("tryDemo")}</button>
+
+        {/* ---------- AI agents (graphite band) ---------- */}
+        <section className="bg-[#121214] py-20 text-[#E7E9EC] sm:py-28" aria-labelledby="ai">
+          <div className={wrap}>
+            <div className="grid gap-4 lg:grid-cols-[1fr_1.1fr] lg:items-end">
+              <div><p className={`${eyebrow} text-[#B48CF0]`}>03 · {t("aiHub")}</p><h2 id="ai" className={`${h2Land} mt-3 text-white`}>{t("aiTitle")}</h2></div>
+              <p className="flex items-start gap-2 text-[15px] leading-[1.6] text-[#B9BDC4]"><Activity size={16} className="mt-1 shrink-0 text-[#B48CF0]" aria-hidden="true" />{t("aiNote")}</p>
+            </div>
+            <ul className="mt-12 grid gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 sm:grid-cols-2 lg:grid-cols-5">
+              {AI_ICONS.map((Icon, i) => { const n = i + 1; return (
+                <li key={n} className="flex flex-col gap-4 bg-[#16161A] p-6">
+                  <Icon size={20} className="text-[#B48CF0]" aria-hidden="true" />
+                  <h3 className="text-[16px] font-semibold tracking-[-0.01em] text-white">{t(`ai${n}t`)}</h3>
+                  <p className="text-[14px] leading-[1.55] text-[#9CA2AC]">{t(`ai${n}b`)}</p>
+                </li>); })}
+            </ul>
+          </div>
+        </section>
+
+        {/* ---------- roles + compliance ---------- */}
+        <section className="py-20 sm:py-28">
+          <div className={`${wrap} grid gap-16 lg:grid-cols-2 lg:gap-12`}>
+            <div aria-labelledby="who">
+              <p className={`${eyebrow} text-[#7A45C7] dark:text-[#B48CF0]`}>04 · {t("stRoles")}</p>
+              <h2 id="who" className={`${h2Land} mt-3`}>{t("whoTitle")}</h2>
+              <ul className="mt-10 grid gap-3 sm:grid-cols-2">
+                {ROLES.map((r) => { const Icon = ROLE_ICON[r]; return (
+                  <li key={r} className="flex gap-3 rounded-xl border border-[#E4E5E9] bg-white p-4 dark:border-[#26262C] dark:bg-[#141417]">
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#F1F1F4] text-[#121214] dark:bg-[#202025] dark:text-[#E7E9EC]"><Icon size={17} aria-hidden="true" /></span>
+                    <span className="min-w-0"><span className="block text-[15px] font-semibold">{t(r)}</span><span className={`mt-0.5 block text-[13px] leading-[1.5] ${muted}`}>{t(`rb_${r}`)}</span></span>
+                  </li>); })}
+              </ul>
+            </div>
+            <div aria-labelledby="trust">
+              <p className={`${eyebrow} text-[#7A45C7] dark:text-[#B48CF0]`}>05 · {t("compliance")}</p>
+              <h2 id="trust" className={`${h2Land} mt-3`}>{t("trustTitle")}</h2>
+              <p className={`mt-4 text-[15px] leading-[1.6] ${muted}`}>{t("trustBody")}</p>
+              <dl className="mt-8 divide-y divide-[#E4E5E9] border-y border-[#E4E5E9] dark:divide-[#26262C] dark:border-[#26262C]">
+                {compliance.map(([name, k]) => (
+                  <div key={k} className="grid gap-1 py-4 sm:grid-cols-[150px_1fr] sm:gap-6">
+                    <dt className={`${MONO} flex items-center gap-2 text-[13px] font-medium`}><Check size={14} className="text-[#1F9D6B]" aria-hidden="true" />{name}</dt>
+                    <dd className={`text-[14px] leading-[1.55] ${muted}`}>{t(k)}</dd>
+                  </div>))}
+              </dl>
+            </div>
+          </div>
+        </section>
+
+        {/* ---------- final CTA ---------- */}
+        <section className="px-5 pb-20 sm:px-8" aria-labelledby="contact">
+          <div className="relative mx-auto max-w-[1200px] overflow-hidden rounded-3xl bg-[#121214] px-6 py-14 text-center text-[#E7E9EC] sm:px-12 sm:py-20">
+            <div className="pointer-events-none absolute -bottom-40 left-1/2 h-[380px] w-[760px] -translate-x-1/2 rounded-full bg-[radial-gradient(closest-side,rgba(155,93,229,0.3),transparent)]" aria-hidden="true" />
+            <h2 id="contact" className={`${h2Land} relative mx-auto max-w-2xl text-white`}>{t("ctaTitle")}</h2>
+            <p className="relative mx-auto mt-4 max-w-xl text-[16px] leading-[1.6] text-[#B9BDC4]">{t("ctaBody")}</p>
+            <div className="relative mt-8 flex flex-wrap justify-center gap-3">
+              <button className={ctaPrimary} onClick={() => onDemo()}>{t("ctaLive")}<ArrowRight size={16} className="rtl:rotate-180" aria-hidden="true" /></button>
+              <a className={ctaGhostDark} href="mailto:team@tectha.com"><Mail size={16} aria-hidden="true" />team@tectha.com</a>
+            </div>
           </div>
         </section>
       </main>
-      <footer className={`mx-auto max-w-6xl px-4 py-6 text-xs ${muted}`}>© Tec Tha Consultancy Services · Technology That Shapes the Future.</footer>
+
+      <footer className="border-t border-[#E4E5E9] dark:border-[#26262C]">
+        <div className={`${wrap} flex flex-wrap items-center justify-between gap-4 py-8 text-[13px] ${muted}`}>
+          <div className="flex items-center gap-3"><Logo compactText /><span className="hidden sm:inline">·</span><span>Tec Tha Consultancy Services — {t("footTag")}</span></div>
+          <div className="flex flex-wrap gap-x-5 gap-y-1"><a className="hover:text-[#121214] dark:hover:text-white" href="mailto:team@tectha.com">team@tectha.com</a><a className="hover:text-[#121214] dark:hover:text-white" href="https://www.tectha.com">www.tectha.com</a><span className={MONO}>© {new Date().getFullYear()}</span></div>
+        </div>
+      </footer>
     </div>
   );
 }
@@ -1233,12 +1421,12 @@ function Landing({ onDemo, lang, setLang, theme, setTheme }: { onDemo: () => voi
 /* ------------------------------------------------------------------ shell */
 
 type ThemeMode = "light" | "dark" | "system";
-function ThemeSwitch({ theme, setTheme }: { theme: ThemeMode; setTheme: (t: ThemeMode) => void }) {
+function ThemeSwitch({ theme, setTheme, dark }: { theme: ThemeMode; setTheme: (t: ThemeMode) => void; dark?: boolean }) {
   const { t } = useApp();
   const opts: [ThemeMode, typeof Sun][] = [["light", Sun], ["dark", Moon], ["system", Monitor]];
   return (
-    <div className="inline-flex rounded-lg border border-[#D5D8DD] p-0.5 dark:border-[#34343B]" role="group" aria-label={t("theme")}>
-      {opts.map(([k, Icon]) => <button key={k} aria-pressed={theme === k} aria-label={t(k)} title={t(k)} className={`flex h-10 w-10 items-center justify-center rounded-md ${focusRing} ${theme === k ? "bg-[#121214] text-[#F5F5F7] dark:bg-[#E7E9EC] dark:text-[#121214]" : ""}`} onClick={() => setTheme(k)}><Icon size={16} aria-hidden="true" /></button>)}
+    <div className={`inline-flex rounded-full border p-0.5 ${dark ? "border-white/15 text-[#E7E9EC]" : "border-[#D5D8DD] dark:border-[#34343B]"}`} role="group" aria-label={t("theme")}>
+      {opts.map(([k, Icon]) => <button key={k} aria-pressed={theme === k} aria-label={t(k)} title={t(k)} className={`flex h-10 w-10 items-center justify-center rounded-full ${focusRing} ${theme === k ? (dark ? "bg-white/15 text-white" : "bg-[#121214] text-[#F5F5F7] dark:bg-[#E7E9EC] dark:text-[#121214]") : ""}`} onClick={() => setTheme(k)}><Icon size={16} aria-hidden="true" /></button>)}
     </div>
   );
 }
@@ -1275,7 +1463,7 @@ export default function App() {
   useEffect(() => {
     if (document.getElementById("tt-fonts")) return;
     const l = document.createElement("link"); l.id = "tt-fonts"; l.rel = "stylesheet";
-    l.href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap";
+    l.href = "https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap";
     document.head.appendChild(l);
   }, []);
   useEffect(() => { document.documentElement.lang = lang; document.documentElement.dir = info.dir; }, [lang, info.dir]);
@@ -1289,7 +1477,7 @@ export default function App() {
   // Tablet (768–1279px): the sidebar becomes an icon rail automatically; people can still expand it.
   useEffect(() => { let last = window.innerWidth; const onResize = () => { const w = window.innerWidth; if (w < 1280 && last >= 1280) setRail(true); if (w >= 1280 && last < 1280) setRail(false); last = w; }; window.addEventListener("resize", onResize); return () => window.removeEventListener("resize", onResize); }, []);
 
-  const t = useCallback((k: string, n?: string | number) => { const row = D[k]; const s = row ? (row[idx] ?? row[0]) : k; return n === undefined ? s : s.replace("{n}", String(n)); }, [idx]);
+  const t = useCallback((k: string, n?: string | number) => { const row = D[k]; const s: string = row ? (row[idx] ?? row[0] ?? k) : k; return n === undefined ? s : s.replace("{n}", String(n)); }, [idx]);
   const num = useCallback((n: number) => new Intl.NumberFormat(info.locale).format(n), [info.locale]);
   const money = useCallback((inr: number) => {
     const v = inr / DEMO_RATES[currency];
@@ -1321,9 +1509,15 @@ export default function App() {
   const confirm = useCallback((onYes: () => void) => setConfirmFn(() => onYes), []);
   const go = useCallback((p: Page) => { setPage(p); setMoreOpen(false); window.scrollTo(0, 0); }, []);
   const onReset = () => { setData(initialData()); prevData.current = null; showToast(t("tReset"), false); };
-  const startDemo = () => { window.location.hash = "demo"; setView("demo"); window.scrollTo(0, 0); };
+  const startDemo = (p?: Page) => {
+    if (p) {
+      const r: Exclude<Role, "patient"> = role !== "patient" && ROLE_PAGES[role].includes(p) ? role : (Object.keys(ROLE_PAGES) as Exclude<Role, "patient">[]).find((k) => ROLE_PAGES[k].includes(p)) ?? "owner";
+      setRoleS(r); save("tt-role", r); setPage(p);
+    }
+    window.location.hash = "demo"; setView("demo"); window.scrollTo(0, 0);
+  };
   const toSite = () => { history.pushState("", document.title, window.location.pathname + window.location.search); setView("landing"); setTour(null); };
-  const tourGo = (i: number) => { const s = TOUR[i]; setRoleS(s.role); save("tt-role", s.role); setPage(s.page); setTour(i); window.scrollTo(0, 0); };
+  const tourGo = (i: number) => { const s = TOUR[i]; if (!s) return; setRoleS(s.role); save("tt-role", s.role); setPage(s.page); setTour(i); window.scrollTo(0, 0); };
 
   const ctx = useMemo<Ctx>(() => ({ t, money, num, data, update, confirm, go, branch, now }), [t, money, num, data, update, confirm, go, branch, now]);
 
@@ -1359,12 +1553,12 @@ export default function App() {
       {active && <span className="absolute inset-y-2 start-0 w-1 rounded-full bg-[#9B5DE5] dark:bg-[#B48CF0]" aria-hidden="true" />}
       <Icon size={18} aria-hidden="true" className={active ? "text-[#B48CF0]" : ""} />
       {!compact && <span className="min-w-0 flex-1 truncate">{t(p)}</span>}
-      {n > 0 && <span className={`rounded-full bg-[#9B5DE5] px-1.5 text-[11px] font-bold leading-5 text-[#121214] dark:bg-[#B48CF0] ${compact ? "absolute end-1 top-1" : ""}`} aria-label={`${n}`}>{n}</span>}
+      {n > 0 && <span className={`rounded-full bg-[#8B4FDB] px-1.5 font-['Geist_Mono',ui-monospace,monospace] text-[10.5px] font-medium leading-5 text-white ${compact ? "absolute end-1 top-1" : ""}`} aria-label={`${n}`}>{n}</span>}
     </button>); };
 
   return (
     <AppCtx.Provider value={ctx}>
-      <div className={`min-h-screen font-['Source_Sans_3',ui-sans-serif,system-ui,sans-serif] text-[#121214] dark:text-[#E7E9EC] ${role === "patient" ? "bg-[#FBFAF7] dark:bg-[#141416]" : "bg-[#F5F5F7] dark:bg-[#121214]"}`}>
+      <div className={`min-h-screen font-['Geist',ui-sans-serif,system-ui,sans-serif] text-[#121214] dark:text-[#E7E9EC] ${role === "patient" ? "bg-[#FBFAF7] dark:bg-[#141416]" : "bg-[#F7F7F9] dark:bg-[#121214]"}`}>
         <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:start-2 focus:top-2 focus:z-50 focus:rounded focus:bg-[#9B5DE5] focus:px-3 focus:py-2 focus:text-[#121214]">{t("skip")}</a>
         <div className="flex">
           {role !== "patient" && (
@@ -1386,7 +1580,10 @@ export default function App() {
             </aside>
           )}
           <div className="min-w-0 flex-1">
-            <div className="border-b border-[#9B5DE5]/25 bg-[#9B5DE5]/10 px-4 py-1.5 text-center text-xs font-semibold text-[#4A2A78] dark:text-[#D6C2F7]">{t("demoBanner")}</div>
+            <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 border-b border-[#9B5DE5]/20 bg-[#F1EAFC] px-4 py-1.5 text-center text-xs font-medium text-[#3B2366] dark:bg-[#1E1729] dark:text-[#D6C2F7]">
+              <span className="inline-flex items-center gap-1.5"><AlertTriangle size={13} className="text-[#7A45C7] dark:text-[#B48CF0]" aria-hidden="true" />{t("demoBanner")}</span>
+              {role !== "patient" && <button className={`inline-flex min-h-[28px] items-center gap-1 rounded-full bg-[#8B4FDB] px-3 text-[11.5px] font-semibold text-white ${focusRing}`} onClick={() => tourGo(0)}><Compass size={12} aria-hidden="true" />{t("tour")}</button>}
+            </div>
             <header className="sticky top-0 z-10 border-b border-[#E1E3E7] bg-white/95 backdrop-blur dark:border-[#2A2A30] dark:bg-[#121214]/95">
               <div className="mx-auto flex max-w-[1600px] flex-wrap items-center gap-2 px-4 py-2">
                 <div className={role === "patient" ? "" : "md:hidden"}><Logo compact={role !== "patient"} /></div>
@@ -1397,7 +1594,7 @@ export default function App() {
                     <input id="g-search" type="search" className={`${input} ps-9`} placeholder={t("searchPatient")} value={search} onChange={(e) => setSearch(e.target.value)} autoComplete="off" aria-controls="g-search-list" aria-expanded={hits.length > 0} role="combobox" />
                     {sq.length >= 2 && (
                       <ul id="g-search-list" role="listbox" className={`${panel} absolute inset-x-0 top-12 z-30 max-h-72 overflow-y-auto p-1 shadow-lg`}>
-                        {hits.length ? hits.map((p) => <li key={p.uhid} role="option" aria-selected={false}><button className={`flex min-h-[44px] w-full flex-col items-start justify-center rounded-md px-3 text-start text-sm hover:bg-[#F5F5F7] dark:hover:bg-[#26262C] ${focusRing}`} onClick={() => openPerson(p)}><b>{p.name}</b><span className={`font-mono text-xs ${muted}`}>UHID {p.uhid} · ABHA {p.abha}</span></button></li>) : <li className={`p-3 text-sm ${muted}`}>{t("noResults")}</li>}
+                        {hits.length ? hits.map((p) => <li key={p.uhid} role="option" aria-selected={false}><button className={`flex min-h-[44px] w-full flex-col items-start justify-center rounded-md px-3 text-start text-sm hover:bg-[#F5F5F7] dark:hover:bg-[#26262C] ${focusRing}`} onClick={() => openPerson(p)}><b>{p.name}</b><span className={`font-['Geist_Mono',ui-monospace,monospace] text-xs ${muted}`}>UHID {p.uhid} · ABHA {p.abha}</span></button></li>) : <li className={`p-3 text-sm ${muted}`}>{t("noResults")}</li>}
                       </ul>
                     )}
                   </div>
@@ -1417,7 +1614,7 @@ export default function App() {
               </div>
             </header>
             <main id="main" className="mx-auto max-w-[1600px] px-4 pb-28 pt-4 md:pb-8">
-              {role !== "patient" && <h1 className="mb-4 flex items-center gap-2 font-['Montserrat',sans-serif] text-xl font-bold tracking-tight sm:text-2xl">{(() => { const Icon = PAGE_ICON[current]; return <Icon size={22} aria-hidden="true" />; })()}{t(current)}</h1>}
+              {role !== "patient" && <h1 className="mb-4 flex items-center gap-2 font-['Geist',ui-sans-serif,system-ui,sans-serif] text-xl font-semibold tracking-[-0.025em] sm:text-[26px]">{(() => { const Icon = PAGE_ICON[current]; return <Icon size={22} aria-hidden="true" />; })()}{t(current)}</h1>}
               {body}
               <p className={`mt-8 text-xs ${muted}`}>Tec Tha Vital · Hospital OS · Tec Tha Consultancy Services · <Activity size={12} className="inline" aria-hidden="true" /> {t("decisionSupport")}</p>
             </main>
@@ -1447,8 +1644,8 @@ export default function App() {
           <div className="fixed inset-x-0 bottom-24 z-40 flex justify-center px-4 md:bottom-6" role="dialog" aria-modal="false" aria-labelledby="tour-h">
             <div className={`${panel} w-full max-w-lg border-[#9B5DE5] p-4 shadow-xl dark:border-[#B48CF0]`}>
               <div className="flex items-center justify-between gap-2"><span className={label}>{t("step", tour + 1)}</span><button className={`rounded p-2 ${focusRing}`} aria-label={t("close")} onClick={() => setTour(null)}><X size={16} aria-hidden="true" /></button></div>
-              <h2 id="tour-h" className={`${h2} mt-1`}>{t(TOUR[tour].page)}</h2>
-              <p className="mt-1 text-sm">{t(TOUR[tour].body)}</p>
+              <h2 id="tour-h" className={`${h2} mt-1`}>{t(TOUR[tour]!.page)}</h2>
+              <p className="mt-1 text-sm">{t(TOUR[tour]!.body)}</p>
               <div className="mt-3 flex justify-between gap-2">
                 <button className={btn} disabled={tour === 0} onClick={() => tourGo(tour - 1)}>{t("back")}</button>
                 {tour < TOUR.length - 1 ? <button className={btnViolet} onClick={() => tourGo(tour + 1)}>{t("next")}</button> : <button className={btnViolet} onClick={() => setTour(null)}>{t("finish")}</button>}
